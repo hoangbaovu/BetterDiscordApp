@@ -322,10 +322,9 @@ This theme is meant to be used with the dark version of discord
     height:50px
 }
 .channel-2QD9_O::after,.content-20Aix8::after,.content-OzHfo4::after{
-    height:2px;
+    height:1px;
     width:98.5%;
-    background-color:transparent;
-    background-image:linear-gradient(to right,var(--primaryGradient1),var(--primaryGradient2));
+    background-color:rgba(255,255,255,.1);
     transition:all .2s ease;
     border-radius:50px;
     position:absolute;
@@ -342,10 +341,10 @@ This theme is meant to be used with the dark version of discord
     transform:translateX(-250px)
 }
 .channel-2QD9_O.selected-1HYmZZ::after,.channel-2QD9_O:hover::after,.contentConnectedVoice-qL-YrL::after,.contentLockedText-1aHuz8:hover::after,.contentLockedVoice-1gx-SP:hover::after,.contentSelectedText-3wUhMi::after,.contentSelectedVoice-1WDIBM::after,.da-containerDefault:hover .content-20Aix8::after,.member-3W1lQa.popout-open .content-OzHfo4::after,.member-3W1lQa.popout-open:hover .content-OzHfo4::after,.member-3W1lQa:hover .content-OzHfo4::after{
-    transform:translateX(0)
+    transform:translateX(0);
 }
 .membersGroup-v9BXpm{
-    pointer-events:none
+    pointer-events:none;
 }
 .iconCollapsed-3hFp_8,.iconDefault-3Gr8d2,.membersGroup-v9BXpm,.nameCollapsed-34uFWo,.nameDefault-2DI02H{
     color:hsla(0,100%,100%,.65)!important
