@@ -1,6 +1,5 @@
 //META{"name":"BlackDiscord","description":"Black theme for Discord","author":"hoangbaovu","version":"1.0"}*//
 /*
-
 ###################################################################################################
 Black Theme for Better Discord
 
@@ -30,17 +29,6 @@ This theme is meant to be used with the dark version of discord
     --DangerColor:#dc3545;
     --WarningColor:#ffc107;
     --SuccesColor:#28a745
-}
-#app-mount{
-    animation:themeStart .5s linear 0s 1 normal
-}
-@keyframes themeStart{
-    from{
-        filter:blur(100px)
-    }
-    to{
-        filter:blur(0)
-    }
 }
 #friends,.activityFeed-28jde9,.appMount-3VJmYg,.applicationStore-1pNvnv,.article-3kb3qm,.body-3ND3kc,.body-3iLsc4,.channels-Ie2l6A,.chat-3bRxxu,.chat-3bRxxu form,.container-1UB9sr,.container-2Thooq,.container-3ayLPN,.container-PNkimc,.content-yTz4x3,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2o-2hj,.header-39GIC8,.headerBar-UHpsPw,.members-1998pB,.messagesWrapper-3lZDfY,.root-1BQpZw,.root-26DmKJ,.title-3qD0b-,.typeWindows-1za-n7,.video-1FfuMD{
     background-color:var(--backgroundDark)!important
